@@ -1,0 +1,115 @@
+//{{NO_DEPENDENCIES}}
+// Включаемый файл, созданный в Microsoft Visual C++.
+// Используется RK_frontend.rc
+//
+#define IDD_ABOUTBOX                    100
+#define IDP_OLE_INIT_FAILED             100
+#define IDS_ERROR                       101
+#define IDS_MUTEX_ERROR_MPI_LAUNCH      102
+#define IDB_RIBBON_SMALL                110
+#define IDB_RIBBON_LARGE                111
+#define IDR_POPUP_EDIT                  119
+#define ID_STATUSBAR_PANE1              120
+#define ID_STATUSBAR_PANE2              121
+#define IDS_STATUS_PANE1                122
+#define IDS_DONE                        122
+#define IDS_STATUS_PANE2                123
+#define IDR_MAINFRAME                   128
+#define IDR_MAINFRAME_256               129
+#define IDR_RK_frontendTYPE             130
+#define IDR_PASTE_MENU                  151
+#define IDR_WINDOWS_MENU                152
+#define IDR_THEME_MENU                  200
+#define ID_SET_STYLE                    201
+#define ID_VIEW_APPLOOK_WIN_2000        205
+#define ID_VIEW_APPLOOK_OFF_XP          206
+#define ID_VIEW_APPLOOK_WIN_XP          207
+#define ID_VIEW_APPLOOK_OFF_2003        208
+#define ID_VIEW_APPLOOK_VS_2005         209
+#define ID_VIEW_APPLOOK_VS_2008         210
+#define ID_VIEW_APPLOOK_OFF_2007_BLUE   215
+#define ID_VIEW_APPLOOK_OFF_2007_BLACK  216
+#define ID_VIEW_APPLOOK_OFF_2007_SILVER 217
+#define ID_VIEW_APPLOOK_OFF_2007_AQUA   218
+#define ID_VIEW_APPLOOK_WINDOWS_7       219
+#define IDS_EDIT_MENU                   306
+#define IDR_RIBBON                      307
+#define IDD_TASKCONDITIONSDLG           310
+#define IDD_MPISETTINGSDLG              311
+#define IDB_MAIN                        312
+#define IDB_BITMAP2                     315
+#define IDB_PFUR_LOGO                   315
+#define IDC_EDIT                        1007
+#define IDC_TITLE                       1008
+#define IDC_DESCRIPTION                 1009
+#define IDC_INTERVAL_LABEL1             1010
+#define IDC_TO_LABEL1                   1011
+#define IDC_INTERVAL_LABEL2             1012
+#define IDC_PREV                        1013
+#define IDC_NEXT                        1014
+#define IDC_BEG_EDIT1                   1015
+#define IDC_END_EDIT1                   1016
+#define IDC_BEG_EDIT2                   1017
+#define IDC_BUTTON_SETDEFAULT           1017
+#define IDC_TO_LABEL2                   1018
+#define IDC_EDIT_ARGS                   1018
+#define IDC_END_EDIT2                   1019
+#define IDC_INTERVAL_LABEL3             1020
+#define IDC_LABEL_INTERVALS1            1020
+#define IDC_BEG_EDIT3                   1021
+#define IDC_EDIT_INTERVALS1             1021
+#define IDC_TO_LABEL3                   1022
+#define IDC_RADIO_TEMP_FULL             1022
+#define IDC_END_EDIT3                   1023
+#define IDC_EDIT_TEMP_FULL              1023
+#define IDC_LABEL_INTERVALS2            1024
+#define IDC_EDIT_INTERVALS2             1025
+#define IDC_RADIO_TEMP_CALC             1026
+#define IDC_EDIT_TEMP_X                 1027
+#define IDC_EDIT_TEMP_RO                1028
+#define IDC_EDIT_TEMP_C                 1029
+#define IDC_BORDER_TEMP                 1030
+#define IDC_TEMP_1                      1031
+#define IDC_TEMP_2                      1032
+#define IDC_TEMP_3                      1033
+#define IDC_TEMP_4                      1034
+#define IDC_TEMP_5                      1035
+#define IDC_TEMP_6                      1036
+#define IDC_TEMP_7                      1037
+#define IDC_BORDER_TASK                 1038
+#define IDC_TASK_TEMP                   1039
+#define IDC_TASK_TIME                   1041
+#define IDC_TASK_TEMP_CHANGES           1042
+#define IDC_TASK_SLICE_AT               1044
+#define IDC_EDIT_TASK_PARAM1            1045
+#define IDC_EDIT_TASK_PARAM2            1046
+#define IDC_EDIT_TASK_PARAM3            1047
+#define IDC_TASK_PARAM1                 1048
+#define IDC_TASK_PARAM2                 1049
+#define IDC_TASK_PARAM3                 1050
+#define IDC_DATE_TIME                   1051
+#define ID_WRITE_PASTEASHYPERLINK       32770
+#define ID_BUILD_POINT                  32774
+#define ID_BUILD_FULL                   32778
+#define ID_FIND_POINT_TEMPERATURE       32780
+#define ID_FIND_POINT_TIME              32781
+#define ID_BUTTON3                      32783
+#define ID_BUTTON_GRAPH                 32783
+#define ID_MPI_SETTINGS                 32785
+#define ID_BUTTON_SOLVE                 32789
+#define ID_BUTTON_MATRIX                32790
+#define ID_BUTTON_TEXT                  32791
+#define ID_BUTTON6                      32792
+#define ID_BUTTON7                      32793
+#define ID_BUTTON8                      32794
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        319
+#define _APS_NEXT_COMMAND_VALUE         32796
+#define _APS_NEXT_CONTROL_VALUE         1052
+#define _APS_NEXT_SYMED_VALUE           312
+#endif
+#endif

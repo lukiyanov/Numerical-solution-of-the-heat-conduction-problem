@@ -1,0 +1,548 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#include ""res\\RK_frontend.rc2""  // ресурсы, не редактируемые в Microsoft Visual C++\r\n"
+    "#include ""l.RUS\\afxres.rc""      // Стандартные компоненты\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.RUS\\afxprint.rc""        // ресурсы для печати/предварительного просмотра\r\n"
+    "#include ""l.RUS\\afxribbon.rc""        // Лента MFC и ресурсы панели управления\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RK_frontend.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDB_RIBBON_LARGE        BITMAP                  "res\\ribbon_large.bmp"
+
+IDB_RIBBON_SMALL        BITMAP                  "res\\ribbon_small.bmp"
+
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+
+IDB_PFUR_LOGO           BITMAP                  "res\\PFUR_140p.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "В&ыход",                      ID_APP_EXIT
+    END
+    POPUP "&Правка"
+    BEGIN
+        MENUITEM "&Отменить\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Вырезать\tCtrl+X",           ID_EDIT_CUT
+        MENUITEM "&Копировать\tCtrl+C",         ID_EDIT_COPY
+        MENUITEM "Вст&авить\tCtrl+V",           ID_EDIT_PASTE
+    END
+    POPUP "&Вид"
+    BEGIN
+        MENUITEM "&Строка состояния",           ID_VIEW_STATUS_BAR
+        POPUP "&Вид приложения"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Голубой стиль",              ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "Ч&ерный стиль",               ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Серебристый стиль",          ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Зеленовато-голубой стиль",   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Справка"
+    BEGIN
+        MENUITEM "&О проекте RK_frontend...",   ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Редактировать"
+    BEGIN
+        MENUITEM "&Вырезать\tCtrl+X",           ID_EDIT_CUT
+        MENUITEM "&Копировать\tCtrl+C",         ID_EDIT_COPY
+        MENUITEM "Вст&авить\tCtrl+V",           ID_EDIT_PASTE
+    END
+END
+
+IDR_WINDOWS_MENU MENU
+BEGIN
+    MENUITEM "&Новое окно",                 ID_WINDOW_NEW
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "&О проекте RK_frontend...",   ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (&голубой стиль)", ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (ч&ерный стиль)", ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (&серебристый стиль)", ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (&зеленовато-голубой стиль)", ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Win&dows 7",                  ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 231, 92
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Курсовой проект А.Лукьянова,",IDC_STATIC,111,7,113,8,SS_NOPREFIX
+    LTEXT           "студента группы НП201, РУДН,",IDC_STATIC,111,15,113,8
+    DEFPUSHBUTTON   "ОК",IDOK,174,71,50,14,WS_GROUP
+    LTEXT           "ФМиЕН, 2017 год.",IDC_STATIC,111,23,113,8
+    CONTROL         IDB_BITMAP2,IDC_STATIC,"Static",SS_BITMAP,7,7,93,71
+    LTEXT           "Дата и время сборки:",IDC_STATIC,111,33,74,8
+    LTEXT           "<DATE:TIME>",IDC_DATE_TIME,123,42,94,8
+END
+
+IDD_TASKCONDITIONSDLG DIALOGEX 0, 0, 303, 224
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Условия задачи"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Отмена",IDCANCEL,138,204,50,14
+    EDITTEXT        IDC_EDIT,7,18,289,114,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TITLE,7,1,287,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_DESCRIPTION,12,138,282,65,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "< Назад",IDC_PREV,190,204,50,14
+    PUSHBUTTON      "Далее >",IDC_NEXT,242,204,50,14
+    EDITTEXT        IDC_INTERVAL_LABEL1,7,19,93,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_BEG_EDIT1,104,16,75,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TO_LABEL1,183,19,27,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_END_EDIT1,215,16,75,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INTERVAL_LABEL2,7,39,93,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_BEG_EDIT2,104,35,75,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TO_LABEL2,183,39,27,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_END_EDIT2,215,35,75,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LABEL_INTERVALS1,7,58,93,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_INTERVALS1,104,55,75,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LABEL_INTERVALS2,7,77,93,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_INTERVALS2,104,74,75,15,ES_AUTOHSCROLL
+    GROUPBOX        " Коэффициент температуропроводимости материала: ",IDC_BORDER_TEMP,12,18,263,108
+    CONTROL         "Задать напрямую:",IDC_RADIO_TEMP_FULL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,24,33,76,10
+    EDITTEXT        IDC_EDIT_TEMP_FULL,104,31,134,14,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "Вычислить по формуле температуропроводности:",IDC_RADIO_TEMP_CALC,
+                    "Button",BS_AUTORADIOBUTTON,24,56,187,10
+    LTEXT           "м*м/C",IDC_TEMP_1,242,32,20,8
+    EDITTEXT        IDC_EDIT_TEMP_X,125,67,60,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Вт/(м*C)",IDC_TEMP_5,189,70,30,8
+    LTEXT           "Теплопроводность:",IDC_TEMP_2,32,70,87,8
+    EDITTEXT        IDC_EDIT_TEMP_RO,125,87,60,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "кг/(м*м*м)",IDC_TEMP_6,189,90,36,8
+    LTEXT           "Плотность:",IDC_TEMP_3,32,90,87,8
+    EDITTEXT        IDC_EDIT_TEMP_C,125,107,60,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Дж/(кг*C)",IDC_TEMP_7,189,110,36,8
+    LTEXT           "Удельная теплоёмкость:",IDC_TEMP_4,32,110,87,8
+    GROUPBOX        " Я хочу найти... ",IDC_BORDER_TASK,12,18,276,116
+    CONTROL         "Температуру в определённой точке в заданный момент времени...",IDC_TASK_TEMP,
+                    "Button",BS_AUTORADIOBUTTON,30,32,244,10
+    CONTROL         "Момент времени, когда температура в точке достигает значения...",IDC_TASK_TIME,
+                    "Button",BS_AUTORADIOBUTTON,30,44,249,10
+    CONTROL         "Как температура в точке изменяется со временем...",IDC_TASK_TEMP_CHANGES,
+                    "Button",BS_AUTORADIOBUTTON,30,57,240,8
+    CONTROL         "Температуру во всех точках в момент времени...",IDC_TASK_SLICE_AT,
+                    "Button",BS_AUTORADIOBUTTON,30,69,183,10
+    RTEXT           "Статический",IDC_TASK_PARAM1,42,82,122,8
+    EDITTEXT        IDC_EDIT_TASK_PARAM1,168,80,113,14,ES_AUTOHSCROLL
+    RTEXT           "Статический",IDC_TASK_PARAM2,42,100,122,8
+    EDITTEXT        IDC_EDIT_TASK_PARAM2,168,98,113,14,ES_AUTOHSCROLL
+    RTEXT           "Статический",IDC_TASK_PARAM3,42,118,122,8
+    EDITTEXT        IDC_EDIT_TASK_PARAM3,168,116,113,14,ES_AUTOHSCROLL
+END
+
+IDD_MPISETTINGSDLG DIALOGEX 0, 0, 243, 44
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Командная строка запуска MPI-программы"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,6,24,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,60,24,50,14
+    EDITTEXT        IDC_EDIT_ARGS,6,6,230,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "По умолчанию",IDC_BUTTON_SETDEFAULT,168,24,68,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "CompanyName", "Физмат РУДН"
+            VALUE "FileDescription", "Численное решение уравнения теплопроводности"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "RK_frontend.exe"
+            VALUE "LegalCopyright", "Курсовой проект А. Лукьянова, РУДН, факультет физико-математических и естественных наук, 2017 год"
+            VALUE "OriginalFilename", "RK_frontend.exe"
+            VALUE "ProductName", "Численное решение уравнения теплопроводности"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        VERTGUIDE, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_TASKCONDITIONSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        VERTGUIDE, 7
+        VERTGUIDE, 27
+        VERTGUIDE, 39
+        VERTGUIDE, 140
+        VERTGUIDE, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+        HORZGUIDE, 22
+        HORZGUIDE, 25
+        HORZGUIDE, 36
+        HORZGUIDE, 41
+        HORZGUIDE, 56
+        HORZGUIDE, 61
+    END
+
+    IDD_MPISETTINGSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 37
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON              RT_RIBBON_XML           "res\\ribbon.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_TASKCONDITIONSDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_MPISETTINGSDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "Не удалось выполнить инициализацию OLE.  Убедитесь в том, что используются правильные версии библиотек OLE."
+    IDS_ERROR               "Ошибка"
+    IDS_MUTEX_ERROR_MPI_LAUNCH 
+                            "Нельзя запустить новую задачу пока предыдущая не завершена. Подождите."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Численное решение уравнения теплопроводности"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Численное решение уравнения теплопроводности"
+    AFX_IDS_IDLEMESSAGE     "Готово"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Вывод сведений о программе, ее версии и авторских правах\nО программе"
+    ID_APP_EXIT             "Завершение работы приложения\nВыход"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Переход к следующей области окна\nСледующая область"
+    ID_PREV_PANE            "Возврат к предыдущей области окна\nПредыдущая область"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Удаление выделенного фрагмента\nУдалить"
+    ID_EDIT_CLEAR_ALL       "Полное удаление содержимого документа\nУдалить все"
+    ID_EDIT_COPY            "Копирование выделенного фрагмента в буфер обмена\nКопировать"
+    ID_EDIT_CUT             "Удаление выделенного фрагмента в буфер обмена\nВырезать"
+    ID_EDIT_FIND            "Поиск указанного текста\nНайти"
+    ID_EDIT_PASTE           "Вставка содержимого буфера обмена\nВставить"
+    ID_EDIT_REPEAT          "Повторение последнего действия\nПовторить"
+    ID_EDIT_REPLACE         "Замена заданного текста другим текстом\nЗаменить"
+    ID_EDIT_SELECT_ALL      "Выделение всего документа\nВыделить все"
+    ID_EDIT_UNDO            "Отмена последнего действия\nОтменить"
+    ID_EDIT_REDO            "Повторное выполнение последнего отмененного действия\nВернуть"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Изменение размера окна"
+    AFX_IDS_SCMOVE          "Изменение положения окна"
+    AFX_IDS_SCMINIMIZE      "Свертывание окна в значок"
+    AFX_IDS_SCMAXIMIZE      "Развертывание окна до полного размера"
+    AFX_IDS_SCNEXTWINDOW    "Переход к следующему окну документа"
+    AFX_IDS_SCPREVWINDOW    "Переход к предыдущему окну документа"
+    AFX_IDS_SCCLOSE         "Закрытие активного окна с запросом на сохранение документов"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Восстановление исходных размеров окна"
+    AFX_IDS_SCTASKLIST      "Переход к списку задач"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DONE                "Готово"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUILD_POINT          "График изменения температуры с течением времени в указанной точке\nТемпература в точке"
+    ID_BUILD_FULL           "Визуализация изменения температуры всего тела с течением времени\nВизуализация всего процесса"
+    ID_FIND_POINT_TEMPERATURE 
+                            "Вычислить температуру в точке по заданному моменту времени\nНайти температуру"
+    ID_FIND_POINT_TIME      "Вычислить момент времени, когда температура в заданной точке достигает указанной температуры\nНайти момент времени"
+    ID_BUTTON_GRAPH         "Представить результат в виде графика. Доступно не для всех задач.\nГрафик"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT_MENU           "Редактировать"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MPI_SETTINGS         "Редактировать параметры запуска MPI-программы, вычисляющей решения\nНастройки MPI"
+    ID_BUTTON_SOLVE         "Ввести данные задачи и получить результат\nРешить задачу"
+    ID_BUTTON_MATRIX        "Представить результат в виде матрицы. Доступно не для всех задач.\nМатрица"
+    ID_BUTTON_TEXT          "Представить результат в виде текста. Доступно для любой задачи.\nТекст"
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#include "res\RK_frontend.rc2"  // ресурсы, не редактируемые в Microsoft Visual C++
+#include "l.RUS\afxres.rc"      // Стандартные компоненты
+#if !defined(_AFXDLL)
+#include "l.RUS\afxprint.rc"        // ресурсы для печати/предварительного просмотра
+#include "l.RUS\afxribbon.rc"        // Лента MFC и ресурсы панели управления
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

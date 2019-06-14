@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходники">
+      <UniqueIdentifier>{23d9b037-7905-48e8-ba0f-306479646e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Интерфейс">
+      <UniqueIdentifier>{11346292-6b5b-4c3a-8e7e-2b2c7833a0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Интерфейс\Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходники\Интерфейс\Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходники\Интерфейс\Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходники\Вычислительная часть">
+      <UniqueIdentifier>{0907910b-f664-4d89-8e26-95ede390bf58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Вычислительная часть\{} lang::">
+      <UniqueIdentifier>{ac42a55f-e9e8-43fe-b282-89c5665cb771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Вычислительная часть\{} lang::\MathExpression">
+      <UniqueIdentifier>{0e0088c5-40b9-483d-992e-c0d80762cd12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Вычислительная часть\{} lang::\[+] Функции">
+      <UniqueIdentifier>{07c5758e-b015-4231-8e18-652b8abd4bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated">
+      <UniqueIdentifier>{549ac26c-6cc1-4e72-b7aa-ec77a1dbe22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Вычислительная часть\{} lang::\TaskConditions">
+      <UniqueIdentifier>{159e22fd-67f3-4053-9ca7-5d44801f3319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="RK_frontend.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-generated\MathGrammarBaseListener.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-generated\MathGrammarLexer.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-generated\MathGrammarListener.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-generated\MathGrammarParser.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskConditionsDlg.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\Variant.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\VariableList.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\LangErrorListener.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\Calculatables.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\Calculatable.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\MathExpression.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\MathExpression</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\StdFunctions.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] Функции</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\FunctionList.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] Функции</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\Function.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] Функции</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\Transformation.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\TaskConditions.h">
+      <Filter>Исходники\Вычислительная часть\{} lang::\TaskConditions</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskResult.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TextView.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskLauncher.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MPISettingsDlg.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphView.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixView.h">
+      <Filter>Исходники\Интерфейс\Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RK_frontend.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-generated\MathGrammarBaseListener.cpp">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-generated\MathGrammarLexer.cpp">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-generated\MathGrammarListener.cpp">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-generated\MathGrammarParser.cpp">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskConditionsDlg.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\MathExpression.cpp">
+      <Filter>Исходники\Вычислительная часть\{} lang::\MathExpression</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\FunctionList.cpp">
+      <Filter>Исходники\Вычислительная часть\{} lang::\[+] Функции</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskResult.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TextView.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskLauncher.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MPISettingsDlg.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphView.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixView.cpp">
+      <Filter>Исходники\Интерфейс\Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RK_frontend.rc">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\buttons.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\RK_frontend.ico">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\writelarge.png">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\writesmall.png">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\ribbon_large.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\ribbon_small.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\PFUR_140p.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\PFUR_logo_100.bmp">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </None>
+    <None Include="res\RK_frontend.rc2">
+      <Filter>Исходники\Интерфейс\Файлы ресурсов</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Исходники\Интерфейс</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

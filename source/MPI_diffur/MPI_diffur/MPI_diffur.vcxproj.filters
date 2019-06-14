@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходники">
+      <UniqueIdentifier>{e4987b4b-2b59-495c-9cf1-6c44517b3dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Общие">
+      <UniqueIdentifier>{d895e7fb-e332-4fa0-b493-2ae5975ce00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Общие\{} lang::">
+      <UniqueIdentifier>{c53c9c9c-571c-46f8-8b49-bf419c34a303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\Общие\{} lang::\[+] ANTLR4-generated">
+      <UniqueIdentifier>{91b26d7a-4f48-4105-a43c-06956f9b9468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\{} solution::">
+      <UniqueIdentifier>{ab0499e1-af3f-460f-aadd-7156db4f8b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\{} solution::\Matrix">
+      <UniqueIdentifier>{85943362-c257-435e-a81f-33926de7cc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходники\{} solution::\Solutions">
+      <UniqueIdentifier>{26fd7b3a-d1e3-4b4c-8388-b1ab46d0756c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходники</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarBaseListener.cpp">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarLexer.cpp">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarListener.cpp">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarParser.cpp">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RK_frontend\RK_frontend\lang\FunctionList.cpp">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RK_frontend\RK_frontend\lang\MathExpression.cpp">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarBaseListener.h">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarLexer.h">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarListener.h">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\ANTLR4-generated\MathGrammarParser.h">
+      <Filter>Исходники\Общие\{} lang::\[+] ANTLR4-generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\Calculatable.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\Calculatables.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\Function.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\FunctionList.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\LangErrorListener.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\MathExpression.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\StdFunctions.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\VariableList.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\Variant.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\Transformation.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Исходники</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RK_frontend\RK_frontend\lang\TaskConditions.h">
+      <Filter>Исходники\Общие\{} lang::</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericSolution.h">
+      <Filter>Исходники\{} solution::\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="FullBuilderSolution.h">
+      <Filter>Исходники\{} solution::\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperatureChangesSolution.h">
+      <Filter>Исходники\{} solution::\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>Исходники\{} solution::\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericPointSolution.h">
+      <Filter>Исходники\{} solution::\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperatureCalculatorSolution.h">
+      <Filter>Исходники\{} solution::\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCalculatorSolution.h">
+      <Filter>Исходники\{} solution::\Solutions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

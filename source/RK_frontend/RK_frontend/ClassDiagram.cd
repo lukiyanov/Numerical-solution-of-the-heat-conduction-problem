@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lang::Calculatable">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACABAACACAAAAIAAAAA=</HashCode>
+      <FileName>lang\Calculatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::Number">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::Variable">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAgQAAIAARAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::BinaryOperator">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAgAAAAAAAAAAAAAAABAACAAAgAAIAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorAdd">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorSub">
+    <Position X="11.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorMul">
+    <Position X="13.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorDiv">
+    <Position X="15.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::Reference">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAgAAAAAAAAAAACABAACAAAAAAIAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::FunctionCall">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAACAAAEAAAAAAACABAACAAAAAAIAAUAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::Comparison">
+    <Position X="20.5" Y="8.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorNot">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorAnd">
+    <Position X="18.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorOr">
+    <Position X="17" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lang::OperatorIf">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAgAABAAAAAAAAAAACEBAACAAAACAIAAAAA=</HashCode>
+      <FileName>lang\Calculatables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
